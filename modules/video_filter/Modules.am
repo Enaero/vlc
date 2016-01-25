@@ -1,6 +1,7 @@
 SOURCES_mosaic = mosaic.c mosaic.h
 SOURCES_transform = transform.c
 SOURCES_invert = invert.c
+SOURCES_cardboard = cardboard.c
 SOURCES_mirror = mirror.c
 SOURCES_adjust = adjust.c adjust_sat_hue.c adjust_sat_hue.h
 SOURCES_motionblur = motionblur.c
@@ -130,6 +131,7 @@ video_filter_LTLIBRARIES += \
 	libblendbench_plugin.la \
 	libbluescreen_plugin.la \
 	libcanvas_plugin.la \
+	libcardboard_plugin.la \
 	libcolorthres_plugin.la \
 	libcroppadd_plugin.la \
 	liberase_plugin.la \
@@ -164,4 +166,3 @@ video_filter_LTLIBRARIES += \
 	liboldmovie_plugin.la \
 	libvhs_plugin.la \
 	libfreeze_plugin.la
-
